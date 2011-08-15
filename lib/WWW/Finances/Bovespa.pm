@@ -3,7 +3,7 @@ use Moose;
 use WWW::Mechanize;
 use XML::XPath;
 
-our $VERSION = '0.02';
+our $VERSION = '0.10';
 
 
 has [ qw/descricao codigo ibovespa delay data hora oscilacao valor_ultimo quant_neg mercado bovespa_response/ ] => ( is => 'rw' , isa => 'Str' );
